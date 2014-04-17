@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="E69EFC6A-2817-49E5-AF52-A4451BD1D0FF" Name="WixSampleInstaller" Language="1033"
+           Version="1.0.0.0" Manufacturer="WonderCompany" UpgradeCode="f127fb96-0eac-4f32-9bc8-3605bc567f35">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of WixSampleInstaller is already installed." />
+    <MediaTemplate />
+
+    <UIRef Id="WixUI_Advanced" />
+    <WixVariable Id="WixUIBannerBmp" Value="StaticFiles\banner.png"/>
+    <WixVariable Id="WixUIDialogBmp" Value="StaticFiles\background.png"/>
+    <WixVariable Id="WixUILicenseRtf" Value="StaticFiles\license.rtf" />
+
+    <Property Id="ApplicationFolderName" Value="WixSampleInstaller" />
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+
+    <Feature Id="SubFolder1Feature" Title="SubFolder1 Feature" Level="1">
+      <ComponentGroupRef Id="SubFolder1Components"/>
+    </Feature>
+    <Feature Id="SubFolder2Feature" Title="SubFolder2 Feature" Level="1">
+      <ComponentGroupRef Id="SubFolder2Components"/>
+    </Feature>
+
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="APPLICATIONFOLDER">
+          <Directory Id="SubFolder1Dir" Name="SubFolder1" />
+          <Directory Id="SubFolder2Dir" Name="SubFolder2" />
+        </Directory>
+      </Directory>
+    </Directory>
+  </Fragment>
+
+</Wix>

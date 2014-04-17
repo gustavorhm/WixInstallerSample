@@ -1,0 +1,9 @@
+obj\Debug\Product.wixobj
+obj\Debug\SubFolder1.wixobj
+obj\Debug\SubFolder2.wixobj
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\cab1.cab
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\WixSampleInstaller.msi
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\WixSampleInstaller.wixpdb
+obj\Debug\WixSampleInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\WixSampleInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\WixSampleInstaller.wixproj.BindBuiltOutputsFileListnull.txt

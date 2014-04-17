@@ -1,0 +1,3 @@
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\cab1.cab
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\WixSampleInstaller.msi
+C:\Users\Gustavo\Desktop\Projects\Personal\WixSampleInstaller\WixSampleInstaller\bin\Debug\WixSampleInstaller.wixpdb

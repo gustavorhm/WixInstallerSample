@@ -1,0 +1,4 @@
+SoftwareToInstall\SubFolder2\File1_2.txt
+SoftwareToInstall\SubFolder1\File2_1.txt
+SoftwareToInstall\SubFolder1\File1_1.txt
+SoftwareToInstall\SubFolder2\File2_2.txt
